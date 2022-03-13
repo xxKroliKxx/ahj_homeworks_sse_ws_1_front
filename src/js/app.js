@@ -2,7 +2,7 @@ import API from './api'
 import Registration from './registration'
 import Chat from './chat'
 
-const ws = new WebSocket('ws://ahj-homeworks-sse-ws-1-back.herokuapp.com/ws');
+const ws = new WebSocket('wss://ahj-homeworks-sse-ws-1-back.herokuapp.com/ws');
 ws.binaryType = 'blob'; // arraybuffer
 
 const modal = document.getElementsByClassName('registration')[0]
